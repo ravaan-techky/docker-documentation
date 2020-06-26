@@ -1,11 +1,35 @@
-### To remove all container along with images
-```markdown
-docker system prune
-```
 ## Docker Commands
 
 ### Overview:
 This page explains all important commands related to Docker CLI.
+
+### Docker Import Commands:
+
+**_System Command_**
+
+Clean all containers. Should use when we are not using containers for long times.
+**Output:** Clean Storage space.
+
+```markdown
+# Syntax
+docker system prune
+```
+
+**_Create Command_**
+
+Create container for a given image. This command does not start / run image within container.
+**Output:** Return container ID.
+
+```markdown
+# Syntax
+docker crete <image_id>
+
+# Example:
+docker crete bussyBox
+# bussyBox is linux image which will be used to create container.
+```
+
+
 
 ### Docker Management Commands:
 
