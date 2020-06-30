@@ -117,6 +117,7 @@ docker exec -it <container_id> <command>
 **_Exec Command for Debugging purpose_**
 
 Open shell / BASH / PowerShell of container virtual machine, for debugging purpose.
+
 **Output:** Open shell / BASH / PowerShell command prompt.
 
 **Note: it flag represnt interactive input terminal flag.**
