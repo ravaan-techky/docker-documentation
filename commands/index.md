@@ -59,7 +59,6 @@ docker start <container_id>
 # console output:
          Hello from Docker!
                   This message shows that your installation appears to be working correctly.
-
          To generate this message, Docker took the following steps:
           1. The Docker client contacted the Docker daemon.
           2. The Docker daemon pulled the "hello-world" image from the Docker Hub.
@@ -80,6 +79,7 @@ docker start <container_id>
 ```
 
 **_Exec Command_**
+
 Execute command inside container.
 **Output:** command execution result.
 
