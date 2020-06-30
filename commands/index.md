@@ -79,6 +79,39 @@ docker start <container_id>
           https://docs.docker.com/get-started/
 ```
 
+**_Exec Command_**
+Execute command inside container.
+**Output:** command execution result.
+
+```markdown
+# Syntax
+docker exec -it <container_id> <command>
+
+# Example:
+
+# download and create container for redis in-memory database.
+# command:
+         docker create redis
+# console output:
+         c41ab591664e519a4ee9fe68b6e58466b24f0bb19e41ea844ee2d082df4e4916
+
+# start redis.
+# command:
+         docker start c41ab591664e519a4ee9fe68b6e58466b24f0bb19e41ea844ee2d082df4e4916
+# console output:
+         c41ab591664e519a4ee9fe68b6e58466b24f0bb19e41ea844ee2d082df4e4916
+
+# connect redis in-memory database container application through redis-cli command to perform operation / trouble-shooting purpose.
+# command:
+         docker exec -it c41ab591664e519a4ee9fe68b6e58466b24f0bb19e41ea844ee2d082df4e4916 redis-cli
+# console output:
+         127.0.0.1:6379> set my_variable 5
+         OK
+         127.0.0.1:6379> get my_variable
+         "5"
+```
+
+
 ### Docker Management Commands:
 
 | Command | Description |
