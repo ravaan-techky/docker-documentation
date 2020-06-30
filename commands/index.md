@@ -8,6 +8,7 @@ This page explains all important commands related to Docker CLI.
 **_System Command_**
 
 Clean all containers. Should use when we are not using containers for long times.
+
 **Output:** Clean Storage space.
 
 ```markdown
@@ -18,6 +19,7 @@ docker system prune
 **_Create Command_**
 
 Create container for a given image. This command does not start / run image within container.
+
 **Output:** Return container ID.
 
 ```markdown
@@ -32,6 +34,7 @@ docker crete bussyBox
 **_Start Command_**
 
 Run image which deployed in container.
+
 **Output:** Return container ID.
 
 ```markdown
@@ -78,6 +81,7 @@ docker start <container_id>
 **_Exec Command_**
 
 Execute command inside container.
+
 **Output:** command execution result.
 
 ```markdown
@@ -111,6 +115,7 @@ docker exec -it <container_id> <command>
 **_Exec Command for Debugging purpose_**
 
 Open shell / BASH / PowerShell of container virtual machine, for debugging purpose.
+
 **Output:** Open shell / BASH / PowerShell command prompt.
 
 ```markdown
