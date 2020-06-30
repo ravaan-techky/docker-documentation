@@ -111,6 +111,19 @@ docker exec -it <container_id> <command>
          "5"
 ```
 
+**_Exec Command for Debugging purpose_**
+
+Open shell / BASH / PowerShell of container virtual machine, for debugging purpose.
+**Output:** Open shell / BASH / PowerShell command prompt.
+
+```markdown
+# Syntax to open shell command prompt
+docker exec -it <container_id> sh
+
+# Syntax to open BASH command prompt
+docker exec -it <container_id> bash
+
+```
 
 ### Docker Management Commands:
 
