@@ -84,6 +84,8 @@ Execute command inside container.
 
 **Output:** command execution result.
 
+**Note: it flag represnt interactive input terminal flag.**
+
 ```markdown
 # Syntax
 docker exec -it <container_id> <command>
@@ -115,10 +117,17 @@ docker exec -it <container_id> <command>
 **_Exec Command for Debugging purpose_**
 
 Open shell / BASH / PowerShell of container virtual machine, for debugging purpose.
-
 **Output:** Open shell / BASH / PowerShell command prompt.
 
+**Note: it flag represnt interactive input terminal flag.**
+
 ```markdown
+# Syntax to open shell command prompt using run docker command without any other process
+docker run -it busybox sh
+
+# Syntax to open BASH command prompt using run docker command without any other process
+docker run -it busybox bash
+
 # Syntax to open shell command prompt
 docker exec -it <container_id> sh
 
