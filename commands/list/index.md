@@ -71,5 +71,5 @@ Commands:
  | wait | Block until one or more containers stop, then print their exit codes |
 
 <br/><br/>
-[<i class="fa fa-arrow-left"></i> **Back**](/documentation/)
+[<i class="fa fa-arrow-left"></i> **Back**](/docker-documentation/)
 
