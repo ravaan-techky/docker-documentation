@@ -26,7 +26,7 @@ CMD ["redis-server"]
 
 Consider below example where we have task to install Google Chrome where we don't have Operating system also not installed.
 
-![create_docker_description_2](../../images/create_docker_description_2.png
+![create_docker_description_2](../../images/create_docker_description_2.png)
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/docker-documentation/)
