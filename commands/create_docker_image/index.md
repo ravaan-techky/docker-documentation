@@ -22,11 +22,15 @@ CMD ["redis-server"]
 
 ![Dockefile Steps](../../images/create_docker_file.png)
 
-### How Docker use Dockerfile
+### How Docker tool use Dockerfile internally
 
 Consider below example where we have task to install Google Chrome where we don't have Operating system also not installed.
 
 ![create_docker_description_2](../../images/create_docker_description_2.png)
+
+Workflow in-depth, -
+
+![create_docker_image_flowchart]{../../images/create_docker_image_flowchart.png)
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/docker-documentation/)
