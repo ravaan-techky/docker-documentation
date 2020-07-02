@@ -7,8 +7,6 @@ This page explains how to create docker custome image.
 
 Dockerfile is use to create docker custom image. 
 
-![Dockefile Steps](../../images/create_docker_file.png)
-
 Here is sample Dockerfil, - 
 
 ```markdown
@@ -21,6 +19,8 @@ RUN apk add --update redis
 #Tell the image what to do when it starts the container
 CMD ["redis-server"]
 ```
+
+![Dockefile Steps](../../images/create_docker_file.png)
 
 ### How Docker use Dockerfile
 
