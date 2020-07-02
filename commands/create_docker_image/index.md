@@ -30,7 +30,7 @@ Consider below example where we have task to install Google Chrome where we don'
 
 Workflow in-depth, -
 
-![create_docker_image_flowchart]{../../images/create_docker_image_flowchart.png)
+![create_docker_image_flowchart](../../images/create_docker_image_flowchart.png)
 
 <br/><br/>
 [<i class="fa fa-arrow-left"></i> **Back**](/docker-documentation/)
