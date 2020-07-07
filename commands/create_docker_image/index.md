@@ -64,8 +64,8 @@ Console output:
 
 ```markdown
 
-# '-t' flag represent docker image tag name which can use to run docker with meaningful name.
-	docker -t ravaantechky/redis:latest build .
+# 'tag' command use to give meaningful name to above docker image id.
+	docker tag d82db9413796 ravaantechky/redis:latest
 	
 # Above mentioned command return docket image tag name which we can use to run docker image.
 	docker run ravaantechky/redis
